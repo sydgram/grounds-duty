@@ -118,7 +118,7 @@ function notifyByEmail() {
       //Logger.log("dateColumn: " + dateColumn + "\n");
       //Logger.log("dutyDate: " + dutyDate + "\n");
       
-      sheet.getRange(dateRow, dateColumn, 1, 1).setBackgroundColor('#FF0000'); // Set duty date background color of emailed duty dates to red
+      sheet.getRange(dateRow, dateColumn, 1, 1).setBackgroundColor('#00FF00'); // Set duty date background color of emailed duty dates to green
       
       var subject = "You have Horn Commons duty tomorrow, " + dutyDate + "!";
       var message = "Dear " + name + ",\n\n";
