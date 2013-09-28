@@ -125,7 +125,7 @@ function notifyByEmail() {
       
       message += "This is a friendly reminder that you are scheduled for Horn Commons duty tomorrow, " + dutyDate + ", at break.  Thank you for your help!\n\nBest,\n\n-HW.";
       
-      MailApp.sendEmail(emailAddress, subject, message, {bcc: "mpike@hw.com", replyTo: "tsmith@hw.com"});
+      MailApp.sendEmail(emailAddress, subject, message, {bcc: "email@domain.com", replyTo: "email@domain.com"});
     }
     
   }
